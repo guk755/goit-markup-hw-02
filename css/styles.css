@@ -102,6 +102,11 @@ font-family: 'Raleway', sans-serif;
   cursor: pointer;
 }
 
+.banner-btn:hover,
+.banner-btn:focus {
+  background-color: var(--hover);
+}
+
 /*-----------------------OUR-LINE----------------------*/
 
 .our-line-title {
@@ -156,7 +161,7 @@ font-family: 'Raleway', sans-serif;
   letter-spacing: 0.02em;
 }
 
-/*-----------------------BUTTONS----------------------*/
+/*------------------BUTTONS-PRODUCTS-------------------*/
 
 .buttons-btn {
   font-family: 'Roboto', sans-serif;
@@ -177,8 +182,6 @@ font-family: 'Raleway', sans-serif;
   background-color: var(--hover);
   color: #FFFFFF;
 }
-
-/*-----------------------PRODUCTS----------------------*/
 
 .products-title {
   color: var(--second-title-color);
